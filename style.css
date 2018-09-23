@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************** FONTS ****************/
+
+@font-face {
+    font-family: 'Rissa';
+    src: url('fonts/rissatypeface-webfont.eot'); /*A*/
+    src: url('fonts/rissatypeface-webfont.eot?#iefix') format('embedded-opentype'), /*B*/
+    url('fonts/rissatypeface-webfont.woff') format('woff'), /*C*/
+    url('fonts/rissatypeface-webfont.otf') format('opentype'), /*D*/
+    url('fonts/rissatypeface-webfont.svg') format('svg'); /*E*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**************** UNIVERSAL SETUP ****************/
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+body {
+	margin: 0px 0px;
+	padding: 0 0;
+	height:100%;
+	overflow-x:hidden;	
+}
+h1{
+	font-family:'Rissa';
+	color:#414042;
+	font-size:50pt;
+}
+a {
+	text-decoration:none;
+}
+p {
+	font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: .23px;
+    line-height: 1.61em;
+    text-align: left;
+}
+
+/**************** HEADER ****************/
+
+#header{
+	background-image:url(images/background.jpg);
+  	background-position: center center fixed;
+  	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding: 0 0;
+	text-align:center;
+}
+#whiteTop{
+	width:100vw;
+	height:50px;
+	background-color:#fff;
+	box-shadow: 0px 0px 3px rgba(45,45,45,15);
+	position:fixed;
+	z-index:1000;
+}
+#header #logo{
+	height:65px;
+	width:65px;
+	padding-left:auto;
+	padding-right:auto;
+	position:absolute;
+}
+#headerside{
+	width:30vw;
+	height:300px;
+	float:right;
+	padding:13% 15% 0 0;
+}
+#headertxt{
+	height:205px;
+	width:320px;
+	float:right;
+}
+#viewwork{
+	height:50px;
+	width:150px;
+	border-radius:5px;
+	background-color:#EC876A;
+	float:right;
+	box-shadow: 0px 1px 3px rgba(45,45,45,.5);
+}
+#viewwork p{
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	font-size:14pt;
+	font-weight:400;
+	height:30px;
+	line-height:13px;
+	text-align:center;
+}
+
+/**************** NAVIGATION ****************/
+
+#indexNavigation{
+	float:right;
+	position:relative;
+	padding-top: 15px;
+	padding-right:2%;
+}
+#indexNavigation ul{
+	list-style-type:none;
+	margin:0 0;
+	padding:0 0;
+}
+#indexNavigation li{
+	margin-right:10px;
+	display:inline;
+}
+#indexNavigation ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size:14px;
+	color:#6D6E71;
+}
+#indexNavigation a {
+	text-decoration: none;
+}
+#indexNavigation a:hover{
+	color:#000;
+	border-bottom:2px solid #EC876A;
+}
+/**************** SKILLS ****************/
+
+#skillsOuter{
+	width:100vw;
+	height:auto;
+	border-bottom:1px solid #bdbdbd;
+}
+#skillsInner{
+	max-width:70%;
+	padding:20px 0 50px 0;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	text-align:center;
+}
+
+/*** skills content ***/
+
+#skill{
+	max-height:500px;
+	max-width:550px;
+}
+#skillsInner p {
+	text-align:center;
+	color:#6D6E71;
+}
+
+/**************** PROJECTS ****************/
+
+#projectsOuter{
+	width:100vw;
+	border-bottom:1px solid #bdbdbd;
+}
+#projectsInner{
+	max-width:60%;
+	padding:20px 0 50px 0;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	text-align:center;
+	overflow:hidden;
+}
+
+/*** projects ***/
+#projectimg{
+	min-height:100px;
+	min-width:100px;
+	max-height:250px;
+	max-width:250px;
+	float:center;
+	margin: 0 0;
+	padding: 0 0;
+	display:inline-block;
+}
+
+/**************** ABOUT ****************/
+
+#aboutOuter{
+	width:100vw;
+	height:auto;
+	border-bottom:1px solid #bdbdbd;
+}
+#aboutInner{
+	width:60%;
+	padding:20px 0 50px 0;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	text-align:center;
+	overflow:hidden;
+}
+
+/*** About sides ***/
+
+#aboutOuter #leftside{
+	display:inline;
+	float:left;
+	height:50%;
+	width:50%;
+}
+#aboutOuter #portrait{
+	display:inline;
+	float:left;
+	height:80%;
+	width:80%;
+}
+#aboutOuter #rightside{
+	display:inline;
+	float:right;
+	width:50%;
+	overflow:hidden;
+}
+#aboutOuter p {
+	width:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight:300;
+	text-align:left;
+	margin-top:0;
+	color:#EC876A;
+}
+#interest{
+	height:20%;
+	width:20%;
+	max-height:65px;
+	max-width:65px;
+	float:left;
+	margin-right:10px;
+}
+/**************** CONTACT ****************/
+
+#contactOuter{
+	width:100vw;
+	height:auto;
+	border-bottom:1px solid #bdbdbd;
+}
+#contactInner{
+	width:800px;
+	padding:20px 0 50px 0;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	text-align:center;
+	overflow:hidden;
+}
+#contacts{
+	height:100px;
+	width:200px;
+	float:left;
+}
+#contactInner p{
+	text-align:center;
+	color:#6D6E71;
+	font-size:12pt;
+}
+
+/*** contact info ***/
+#icon{
+	height:50px;
+	width:50px;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/**************** FOOTER ****************/
+
+#footer{
+	height:20px;
+	width:100%;
+	background-color:#1E1E1E;
+	margin:0 0;
+	text-align:center;
+}
+#footer h2 {
+	color:#A0A0A0;
+	font-size:10pt;
+	margin: 0 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
