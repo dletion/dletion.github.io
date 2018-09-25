@@ -72,7 +72,7 @@ p {
 	position:absolute;
 }
 #headerside{
-	width:30vw;
+	width:20%;
 	height:300px;
 	float:right;
 	padding:13% 15% 0 0;
@@ -213,8 +213,8 @@ p {
 #aboutOuter #portrait{
 	display:inline;
 	float:left;
-	height:80%;
-	width:80%;
+	height:90%;
+	width:90%;
 }
 #aboutOuter #rightside{
 	display:inline;
