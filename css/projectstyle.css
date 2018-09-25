@@ -467,9 +467,8 @@ b, strong {
   -webkit-filter: none;
   cursor:pointer;
 }
-#phonemock-unilever{
+.phonead{
 	height:80vh;
-	max-height:1920px;
 	float:center;
 	margin-top:5%;
 }
