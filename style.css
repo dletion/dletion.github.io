@@ -221,6 +221,7 @@ p {
 	float:right;
 	width:50%;
 	overflow:hidden;
+	margin-top:10%;
 }
 #aboutOuter p {
 	width:100%;
