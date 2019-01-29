@@ -22,7 +22,7 @@ function hideFuckingEverything() {
 function showMyShit(name) {
   $("#" + name + "-select").css({"border-bottom": "2px solid #EC876A"});
   $("#phonemock-" + name).show();
-  $("#phonemock-" + name).css({"opacity": 100}); // TODO: find out why we have to do this.
+  $("#phonemock-" + name).css({"opacity": 100,}); // TODO: find out why we have to do this.
   $("#" + name + "desc").show();
 }
 

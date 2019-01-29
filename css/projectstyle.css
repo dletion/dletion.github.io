@@ -471,6 +471,7 @@ b, strong {
 	height:80vh;
 	float:center;
 	margin-top:5%;
+	display:none;
 }
 .addescrip{
 	width:70%;
