@@ -5,18 +5,21 @@ function hideFuckingEverything() {
   $("#unilever-select").css({"border-style": "none"});
   $("#starbucks-select").css({"border-style": "none"});
   $("#mars-select").css({"border-style": "none"});
+  $("#quaker-select").css({"border-style": "none"});
 
   $("#monsterdesc").hide();
   $("#cokedesc").hide();
   $("#unileverdesc").hide();
   $("#starbucksdesc").hide();
   $("#marsdesc").hide();
+  $("#quakerdesc").hide();
 
   $("#phonemock-monster").hide(); 
   $("#phonemock-coke").hide(); 
   $("#phonemock-unilever").hide();
   $("#phonemock-starbucks").hide();
   $("#phonemock-mars").hide(); 
+  $("#phonemock-quaker").hide();
 }
 
 function showMyShit(name) {
@@ -66,6 +69,10 @@ $("#starbucks-select").click(function(){
 $("#unilever-select").click(function(){
   hideFuckingEverything();
   showMyShit("unilever");
+});
+$("#quaker-select").click(function(){
+  hideFuckingEverything();
+  showMyShit("quaker");
 });
 
 setupEasyScroll();
