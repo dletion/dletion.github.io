@@ -98,6 +98,24 @@ b, strong {
 	position:absolute;
 }
 
+#crispmarketHeader{
+	background-image:url(../images/projects/conshareto/header_img.png);
+  	background-position: center center;
+  	background-size:cover;
+	background-repeat:no-repeat;
+	height:50vh;
+	margin:0 0;
+	padding: 0 0;
+	text-align:center;
+}
+#crispmarketHeader #logo{
+	height:65px;
+	width:65px;
+	padding-left:auto;
+	padding-right:auto;
+	position:absolute;
+}
+
 #crispHeader{
 	background-image:url(../images/projects/crispads/quotient_header.png);
   	background-position: center center;
@@ -117,7 +135,7 @@ b, strong {
 }
 
 #bitnessHeader{
-	background-image:url(../images/projects/bitness/peopleusing.jpg);
+	background-image:url(../images/projects/bitness/header_img.png);
   	background-position: center center;
   	background-size:cover;
 	background-repeat:no-repeat;
