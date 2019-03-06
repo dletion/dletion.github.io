@@ -54,6 +54,9 @@ b, strong {
 	padding: 0px 0px;
 	margin-bottom:35px;
 }
+#downloaddeckbutton{
+	color:#EC876A;
+}
 
      
 /**************** Headers ****************/
@@ -78,7 +81,7 @@ b, strong {
 }
 
 #consharetoHeader{
-	background-image:url(../images/projects/conshareto/headerimagesmall.jpg);
+	background-image:url(../images/projects/conshareto/header_img.png);
   	background-position: center center;
   	background-size:cover;
 	background-repeat:no-repeat;
@@ -96,7 +99,7 @@ b, strong {
 }
 
 #crispHeader{
-	background-image:url(../images/projects/conshareto/headerimagesmall.jpg);
+	background-image:url(../images/projects/crispads/quotient_header.png);
   	background-position: center center;
   	background-size:cover;
 	background-repeat:no-repeat;

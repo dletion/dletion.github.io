@@ -175,10 +175,12 @@ p {
 
 /*** projects ***/
 #projectimg{
-	min-height:100px;
-	min-width:100px;
-	max-height:250px;
-	max-width:250px;
+	height:40%;
+	width:40%;
+	min-height:200px;
+	min-width:200px;
+/*		max-height:400px;
+	max-width:400px; */
 	float:center;
 	margin: 0 0;
 	padding: 0 0;
