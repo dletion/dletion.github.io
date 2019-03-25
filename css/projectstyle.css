@@ -98,6 +98,24 @@ b, strong {
 	position:absolute;
 }
 
+#eventsHeader{
+	background-image:url(../images/projects/ritevents/headerimage.jpg);
+  	background-position: center center;
+  	background-size:cover;
+	background-repeat:no-repeat;
+	height:50vh;
+	margin:0 0;
+	padding: 0 0;
+	text-align:center;
+}
+#eventsHeader #logo{
+	height:65px;
+	width:65px;
+	padding-left:auto;
+	padding-right:auto;
+	position:absolute;
+}
+
 #crispmarketHeader{
 	background-image:url(../images/projects/crispmarket/header_img.png);
   	background-position: center center;
