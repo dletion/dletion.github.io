@@ -97,7 +97,23 @@ b, strong {
 	padding-right:auto;
 	position:absolute;
 }
-
+#illustrationHeader{
+	background-image:url(../images/projects/illustration/header.png);
+  	background-position: center center;
+  	background-size:cover;
+	background-repeat:no-repeat;
+	height:50vh;
+	margin:0 0;
+	padding: 0 0;
+	text-align:center;
+}
+#illustrationHeader #logo{
+	height:65px;
+	width:65px;
+	padding-left:auto;
+	padding-right:auto;
+	position:absolute;
+}
 #eventsHeader{
 	background-image:url(../images/projects/ritevents/headerimage.jpg);
   	background-position: center center;
@@ -221,25 +237,6 @@ b, strong {
 	text-align:center;
 }
 #donateHeader #logo{
-	height:65px;
-	width:65px;
-	padding-left:auto;
-	padding-right:auto;
-	position:absolute;
-}
-
-#illustrationHeader{
-	background-image:url(../images/projects/illustrations/headerimagesmall.jpg);
-  	background-position: center center;
-  	background-size:cover;
-	background-repeat:no-repeat;
-	height:50vh;
-	margin-top:0px;
-	margin-bottom:0px;
-	padding: 0 0;
-	text-align:center;
-}
-#illustrationHeader #logo{
 	height:65px;
 	width:65px;
 	padding-left:auto;
